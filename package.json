@@ -1,0 +1,19 @@
+{
+  "name": "angular-eslint-test",
+  "version": "0.0.1",
+  "description": "angular eslint test",
+  "private": true,
+  "packageManager": "yarn@3.6.3",
+  "workspaces": [
+    "packages/*",
+    "packages/clients-ng/projects/*"
+  ],
+  "scripts": {
+    "lint-app": "cd packages/clients-ng && yarn lint" 
+  },
+  "devDependencies": {
+    "typescript": "5.1.6"
+  },
+  "author": "TBD",
+  "license": "TBD"
+}

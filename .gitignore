@@ -1,0 +1,45 @@
+# package directories
+node_modules
+jspm_packages
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+.pnp.*
+**/lambda-layers/**/.yarn
+
+# Serverless directories
+.serverless
+
+# OS files
+.DS_Store
+.DS_Store?
+Thumbs.db
+Thumbs.db:encryptable
+
+# esbuild
+.esbuild
+
+stage.json
+
+# intellij
+.idea
+
+# vscode
+.vscode/init-shell.sh
+.vscode/*.code-workspace
+.vscode/*.md
+
+coverage
+**/sc-model/lib/**/*
+*.tgz
+
+packages/**/dist
+packages/**/build
+
+generated
+*.generated.ts
